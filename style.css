@@ -35,3 +35,9 @@ button{background:#392052;border-radius:14px}
 .slot.filled img{background:transparent;border:0;border-radius:0;object-fit:contain;filter:drop-shadow(0 4px 3px #47240d66);height:112px;max-height:calc(100% - 23px)}
 .slot.filled .title{position:absolute;bottom:-23px;z-index:1;font-size:12px;max-width:95%;padding:2px 9px;box-shadow:0 1px 3px #50270d33}
 @media(max-width:650px){.slot.filled img{height:86px;max-height:100%}.slot.filled .title{bottom:-20px;font-size:11px}}
+
+/* Approved cream plaque: same family as the “Look what I made!” sign. */
+.slot.filled .title{bottom:-42px;background:#fff4d2;border:1px solid #bc893f;border-radius:0;color:#44311a;font-weight:700;box-shadow:0 2px 3px #50270d33;padding:5px 10px;min-width:95px;max-width:95%;font-size:14px;line-height:1.25;white-space:normal}
+.creation-label-name{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.slot .title time{display:block;font-size:12px;font-weight:400;color:#674921;margin-top:3px}
+.plank,.park[data-world] .plank{height:46px;background:linear-gradient(#f5ce8a 0,#cf8e42 11px,#ad6b2a 15px,#aa6c31 16px,#b57a3c 100%);border-bottom:0;box-shadow:inset 0 -3px 6px #70431d44}
+@media(max-width:650px){.slot.filled .title{font-size:12px;min-width:75px;bottom:-41px;padding:4px 7px}.slot .title time{font-size:12px}.plank,.park[data-world] .plank{height:45px}}
