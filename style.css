@@ -41,3 +41,5 @@ button{background:#392052;border-radius:14px}
 .creation-label-name{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.slot .title time{display:block;font-size:12px;font-weight:400;color:#674921;margin-top:3px}
 .plank,.park[data-world] .plank{height:46px;background:linear-gradient(#f5ce8a 0,#cf8e42 11px,#ad6b2a 15px,#aa6c31 16px,#b57a3c 100%);border-bottom:0;box-shadow:inset 0 -3px 6px #70431d44}
 @media(max-width:650px){.slot.filled .title{font-size:12px;min-width:75px;bottom:-41px;padding:4px 7px}.slot .title time{font-size:12px}.plank,.park[data-world] .plank{height:45px}}
+
+.preview-photo{display:block;width:100%;height:min(45svh,380px);max-height:none;object-fit:contain;background:#f4f1e9;margin:14px 0}dialog:has(#name-form){width:min(580px,calc(100% - 24px))}

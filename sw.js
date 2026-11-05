@@ -1,4 +1,4 @@
-const CACHE='proudio-v12';
+const CACHE='proudio-v13';
 const FILES=['./','./index.html','./style.css','./app.js','./background.js','./cutout-worker.js','./manifest.webmanifest','./assets/welcome-creations.webp','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png',...['construction','castle','dinosaurs','space','art-studio','underwater'].map(id=>'./assets/'+id+'.jpg')];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES).then(()=>self.skipWaiting())))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('proudio-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
